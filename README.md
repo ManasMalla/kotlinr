@@ -18,7 +18,7 @@ source ~/.zshrc
 
 #### Specify a custom output
 
-``` kotlinr <filename>.kt <output_filename>.jar```
+```kotlinr <filename>.kt <output_filename>.jar```
 #### Keep the output jar file
 
-``` kotlinr <filename>.kt --keep```
+```kotlinr <filename>.kt --keep```
