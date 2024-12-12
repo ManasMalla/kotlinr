@@ -1,4 +1,11 @@
 kotlinr() {
+  if [[ -z "which kotlinc" ]]; then
+    echo "Error: kotlinc not found."
+    echo "Installing kotlinc..."
+    brew install kotlin
+  else
+  fi
+
   if [[ -z "$1" ]]; then
     echo "Error: No file specified."
     echo "Usage: kotlinr <filename>.kt"
